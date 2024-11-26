@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.Container{
+   width: 80%;
+   margin: auto;
+}
+.headline{
+   padding-top: 100px;
+   margin-top: 30px;
+   margin-bottom: 90px;
+   font-size:300%;
+   font-style: italic;
+   text-transform: capitalize;
+   text-align: center;
+}
+
+
+
+
+
+
+/*--header_home--*/
+
+.header{
+    width: 100%;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+  }
+  .logo{
+     float: left;
+     width: 40%;
+  }
+  .logo h2{
+     padding: 8px 0px 0px 0px;
+     color: rgb(195, 131, 13);
+     font-family: 'Great Vibes', cursive;
+     font-weight:bold;
+     font-size: 40px;
+     text-transform: uppercase;
+  }
+  .nav{
+     float: left;
+     width: 60%;
+     text-align: center;
+     padding-top: 25px;
+     text-align: right;
+  }
+  .nav ul li{
+     display: inline-block;
+     margin-right: 30px;
+  }
+  .nav ul li a{
+     text-decoration: none;
+     color: white;
+     text-transform:uppercase;
+  }
+  .nav ul li a:hover{
+     
+    color: rgb(195, 131, 13);
+    background-color: black;
+    
+  }
+ 
+
+ 
+
+
+
+
+
+ /*--abut-us--*/
+
+.about-us{
+    width: 80%;
+    margin: auto;
+ 
+ }
+ .identification{
+    float: left;
+    width: 500px;
+    height: 400px;
+    
+ }
+ .identification h4{
+    font-size: 30px;
+    color: rgb(199, 199, 44);
+ }
+ .identification .img img{
+    width: auto;
+    height: 300px;
+ }
+ .about{
+    float: left;
+    width: 55%;
+    margin-top: 110px;
+    padding-left: 10px;
+    border-left: 5px solid yellow;
+    line-height: 25px;
+ }
+ .Learn-more{
+    border: 1px solid rgb(195, 131, 13);
+    border-radius: 7px;
+    width: 100px;
+    text-align: center;
+ }
+ .Learn-more .button{
+    text-decoration: none;
+    color: rgb(199, 199, 44);
+ 
+ }
+ .Learn-more:hover{
+    transform:  scale(1.2);
+   
+    transition-duration: 1s;
+ }
+ .article-a{
+    height: 500px;
+ }
+
+ 
+
+
+
+
+ /*--footer--*/
+
+.Communication-platforms{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    background-color: black;
+    height: 300px;
+   
+ 
+ }
+ .Communication-platforms ul li{
+    display: inline-block;
+    padding-top: 80px;
+    width: 90px;
+    
+   
+     
+ }
+ .fa-square-twitter{
+    color: rgb(48, 95, 250);
+ }
+ .Communication-platforms ul li a{
+    text-decoration: none;
+    padding: 8px;
+    font-size: 40px;
+ }
+ .fa-instagram{
+    color: rgb(206, 31, 31);
+ }
+ .fa-square-facebook{
+    color: rgb(36, 36, 252);
+ }
+ .fa-whatsapp{
+    color: rgb(53, 148, 53);
+ }
+ .Communication-platforms ul li a :hover{
+    color: white;
+ }
+ .Copyright{
+    color: white;
+    margin-top: 40px;
+ }
+ .Copyright p a{
+    color: rgba(243, 10, 10, 0.777);
+    text-decoration: none;
+    font-size: 20px;
+ }
+ .Copyright p a:hover{
+    color: white;
+    text-decoration: dashed;
+ }
+ 
